@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+}
+
+.container {
+    background-color: slategrey;
+    min-height: 100vh;
+    max-width: 100vw;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.header {
+    /* padding: 20px; */
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.headerProfileContainer {
+    color: white;
+    display: flex;
+    font-size: larger;
+}
+
+.headerProfile {
+    color: darkgray;
+    margin-left: 2px;
+}
+
+.headerItems {
+    display: flex;
+    color: white;
+}
+.headerItems > p {
+    margin-right: 30px;
+}
+
+.headerActions {
+    display: flex;
+    color: aliceblue;
+}
+
+.main {
+    display: flex;
+    min-height: 60vh;
+}
+
+.footerContainer {
+    display: flex;
+    min-height: 30vh;
+}
