@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-04T07:03:08.898Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="hSwfzdDhflh-IU1bQybP" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-04T07:45:57.365Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="GuMlt9msdmT7opIxLKkZ" version="22.1.5" type="github">
   <diagram name="Trang-1" id="sm1h0GcSnK62wvaNjeTo">
     <mxGraphModel dx="1509" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -43,17 +43,8 @@
         <mxCell id="bVmDdq16kxsvkzqVfBtN-34" value="VIM MANO HLC" style="rounded=1;arcSize=10;dashed=1;strokeColor=#F59D56;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="30" y="310" width="480" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="bVmDdq16kxsvkzqVfBtN-35" value="MySQL Active" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="380" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="bVmDdq16kxsvkzqVfBtN-36" value="VIM MANO HHT" style="rounded=1;arcSize=10;dashed=1;strokeColor=#0000FF;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="732" y="310" width="460" height="230" as="geometry" />
-        </mxCell>
-        <mxCell id="bVmDdq16kxsvkzqVfBtN-38" value="MySQL Standby" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="470" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="bVmDdq16kxsvkzqVfBtN-40" value="&lt;h1&gt;Fix/Pool IP&lt;/h1&gt;&lt;p&gt;- Triển khai tương tự vOCS4.0 1M&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="300" y="380" width="190" height="120" as="geometry" />
         </mxCell>
         <mxCell id="bVmDdq16kxsvkzqVfBtN-41" value="MySQL XDR Tool" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="560" y="390" width="120" height="60" as="geometry" />
@@ -70,17 +61,32 @@
             <mxPoint x="1170" y="700" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bVmDdq16kxsvkzqVfBtN-46" value="" style="group;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="810" y="360" width="300" height="150" as="geometry" />
+        <mxCell id="bVmDdq16kxsvkzqVfBtN-49" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="114" y="350" width="300" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="bVmDdq16kxsvkzqVfBtN-37" value="MySQL Node 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="bVmDdq16kxsvkzqVfBtN-46">
+        <mxCell id="bVmDdq16kxsvkzqVfBtN-50" value="MySQL Node 1" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" vertex="1" parent="bVmDdq16kxsvkzqVfBtN-49">
           <mxGeometry width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bVmDdq16kxsvkzqVfBtN-39" value="MySQL Node 2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="bVmDdq16kxsvkzqVfBtN-46">
+        <mxCell id="bVmDdq16kxsvkzqVfBtN-51" value="MySQL Node 2" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" vertex="1" parent="bVmDdq16kxsvkzqVfBtN-49">
           <mxGeometry y="90" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bVmDdq16kxsvkzqVfBtN-45" value="MySQL Node 3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="bVmDdq16kxsvkzqVfBtN-46">
+        <mxCell id="bVmDdq16kxsvkzqVfBtN-52" value="MySQL Node 3" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" vertex="1" parent="bVmDdq16kxsvkzqVfBtN-49">
           <mxGeometry x="180" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bVmDdq16kxsvkzqVfBtN-48" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="810" y="360" width="300" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="bVmDdq16kxsvkzqVfBtN-37" value="MySQL Node 1" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" vertex="1" parent="bVmDdq16kxsvkzqVfBtN-48">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bVmDdq16kxsvkzqVfBtN-39" value="MySQL Node 2" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" vertex="1" parent="bVmDdq16kxsvkzqVfBtN-48">
+          <mxGeometry y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bVmDdq16kxsvkzqVfBtN-45" value="MySQL Node 3" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" vertex="1" parent="bVmDdq16kxsvkzqVfBtN-48">
+          <mxGeometry x="180" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bVmDdq16kxsvkzqVfBtN-40" value="&lt;h1&gt;Fix/Pool IP&lt;/h1&gt;&lt;p&gt;- Triển khai dạng Cluster&lt;/p&gt;&lt;p&gt;- Chi phí License:&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="480" width="190" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
