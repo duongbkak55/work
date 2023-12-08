@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-08T03:50:03.462Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="tV_1ZtrL_2G412Xd_tO6" version="22.1.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-12-08T03:51:22.864Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="A6y3V3faBdkJfMHEjEqO" version="22.1.7" type="github" pages="2">
   <diagram name="MySQL" id="sm1h0GcSnK62wvaNjeTo">
     <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -445,12 +445,6 @@
         </mxCell>
         <mxCell id="aRFk9TuI5vfWrs9VlPm1-89" value="Delta of balance X" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="483.5" y="1678" width="116" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="aRFk9TuI5vfWrs9VlPm1-90" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="750" y="1683" as="sourcePoint" />
-            <mxPoint x="598" y="1683" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="aRFk9TuI5vfWrs9VlPm1-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aRFk9TuI5vfWrs9VlPm1-93" target="aRFk9TuI5vfWrs9VlPm1-85">
           <mxGeometry relative="1" as="geometry" />
