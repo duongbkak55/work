@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-08T03:51:22.864Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="A6y3V3faBdkJfMHEjEqO" version="22.1.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-12-15T07:32:56.324Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="7UCY3eM3gHuXSYUURydo" version="22.1.9" type="github" pages="2">
   <diagram name="MySQL" id="sm1h0GcSnK62wvaNjeTo">
-    <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1509" dy="798" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -138,6 +138,75 @@
         </mxCell>
         <mxCell id="bVmDdq16kxsvkzqVfBtN-83" value="&lt;h1&gt;Fix/Pool IP&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;- Triển khai dạng Cluster&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;- Dùng tính năng đồng bộ của SQL&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;- Chi phí License: 5000$/Server/Year =&amp;gt; 30.000$&lt;/b&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="520" y="820" width="290" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="YHjkWiy-5rvMrou9TETX-1" value="VIM MANO HLC" style="rounded=1;arcSize=10;dashed=1;strokeColor=#F59D56;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1419" y="5" width="480" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="YHjkWiy-5rvMrou9TETX-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="YHjkWiy-5rvMrou9TETX-2" target="YHjkWiy-5rvMrou9TETX-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YHjkWiy-5rvMrou9TETX-2" value="MySQL Active" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1509" y="45" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YHjkWiy-5rvMrou9TETX-3" value="VIM MANO HHT" style="rounded=1;arcSize=10;dashed=1;strokeColor=#0000FF;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="2121" y="5" width="460" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="YHjkWiy-5rvMrou9TETX-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="YHjkWiy-5rvMrou9TETX-4" target="YHjkWiy-5rvMrou9TETX-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YHjkWiy-5rvMrou9TETX-4" value="MySQL Active Read" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="2188" y="45" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YHjkWiy-5rvMrou9TETX-5" value="MySQL Standby" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="1509" y="135" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YHjkWiy-5rvMrou9TETX-6" value="MySQL Standby" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="2188" y="135" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YHjkWiy-5rvMrou9TETX-8" value="MySQL XDR Tool" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1949" y="85" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YHjkWiy-5rvMrou9TETX-9" value="" style="shape=doubleArrow;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1899" y="100" width="49.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YHjkWiy-5rvMrou9TETX-10" value="" style="shape=doubleArrow;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="2069" y="100" width="49.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YHjkWiy-5rvMrou9TETX-11" value="MPBN" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2062" y="74" width="53" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YHjkWiy-5rvMrou9TETX-12" value="MPBN" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1902" y="72" width="53" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YHjkWiy-5rvMrou9TETX-13" value="Fix NodePort 3306" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YHjkWiy-5rvMrou9TETX-14" value="Fix NodePort 3307" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="153" width="109" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YHjkWiy-5rvMrou9TETX-15" value="Fix NodePort 3307" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2359" y="143" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YHjkWiy-5rvMrou9TETX-16" value="Fix NodePort 3306" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2359" y="55" width="131" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YHjkWiy-5rvMrou9TETX-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YHjkWiy-5rvMrou9TETX-17" target="YHjkWiy-5rvMrou9TETX-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YHjkWiy-5rvMrou9TETX-17" value="VIM OCS 1,2,3 HLC" style="rounded=1;arcSize=10;dashed=1;strokeColor=#F59D56;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1419" y="348" width="480" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="YHjkWiy-5rvMrou9TETX-21" value="KPI, Log Interface" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1667.5" y="279" width="114" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YHjkWiy-5rvMrou9TETX-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YHjkWiy-5rvMrou9TETX-22" target="YHjkWiy-5rvMrou9TETX-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YHjkWiy-5rvMrou9TETX-22" value="VIM OCS 1,2,3 HHT" style="rounded=1;arcSize=10;dashed=1;strokeColor=#F59D56;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="2111" y="348" width="480" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="YHjkWiy-5rvMrou9TETX-26" value="KPI, Log Interface" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2363" y="277" width="114" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
