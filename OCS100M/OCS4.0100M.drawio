@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-22T03:09:08.409Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="TeNgd-6wBLvusVZI4J1x" version="23.1.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-02-22T03:11:28.016Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="6jBagzBpttY5waHQu2B1" version="23.1.1" type="github" pages="7">
   <diagram name="MySQL" id="sm1h0GcSnK62wvaNjeTo">
     <mxGraphModel dx="1434" dy="758" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1455,18 +1455,15 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Slide" id="s12NYHmn8xikuTJ0g6Oo">
-    <mxGraphModel dx="1195" dy="1032" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="795" dy="1032" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="aoAbijeoOiumrKGJV28i-0" />
         <mxCell id="aoAbijeoOiumrKGJV28i-1" parent="aoAbijeoOiumrKGJV28i-0" />
         <mxCell id="cbRqQslN9XxAqCLU3B-r-94" value="&lt;b&gt;Thực thi nâng cấp, monitor theo kịch bản&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=none;fillColor=#CCFFFF;" vertex="1" parent="aoAbijeoOiumrKGJV28i-1">
           <mxGeometry x="976" y="94" width="291" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="cbRqQslN9XxAqCLU3B-r-87" value="Khai báo" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="aoAbijeoOiumrKGJV28i-1">
-          <mxGeometry x="707" y="92" width="117" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="aoAbijeoOiumrKGJV28i-3" value="" style="fillColor=#b1ddf0;strokeColor=#10739e;dashed=1;verticalAlign=bottom;fontStyle=0;whiteSpace=wrap;html=1;align=left;opacity=30;" vertex="1" parent="aoAbijeoOiumrKGJV28i-1">
-          <mxGeometry x="315" y="98" width="272" height="302" as="geometry" />
+        <mxCell id="cbRqQslN9XxAqCLU3B-r-87" value="Cập nhật&lt;br&gt;cấu hình" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="aoAbijeoOiumrKGJV28i-1">
+          <mxGeometry x="713" y="89" width="117" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cbRqQslN9XxAqCLU3B-r-88" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;labelBackgroundColor=default;strokeColor=#999999;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;endSize=3;" edge="1" parent="aoAbijeoOiumrKGJV28i-1" source="aoAbijeoOiumrKGJV28i-9" target="aoAbijeoOiumrKGJV28i-12">
           <mxGeometry relative="1" as="geometry">
@@ -1485,6 +1482,9 @@
               <mxPoint x="867" y="389" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="cbRqQslN9XxAqCLU3B-r-103" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=#999999;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;endSize=3;" edge="1" parent="aoAbijeoOiumrKGJV28i-1" source="aoAbijeoOiumrKGJV28i-12" target="cbRqQslN9XxAqCLU3B-r-57">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aoAbijeoOiumrKGJV28i-12" value="Service Catalog" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=none;" vertex="1" parent="aoAbijeoOiumrKGJV28i-1">
           <mxGeometry x="807" y="224" width="120" height="60" as="geometry" />
@@ -1644,6 +1644,9 @@
         </mxCell>
         <mxCell id="cbRqQslN9XxAqCLU3B-r-96" value="&lt;b&gt;Load cấu hình/file về ứng dụng&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=none;fillColor=#CCFFFF;" vertex="1" parent="aoAbijeoOiumrKGJV28i-1">
           <mxGeometry x="976" y="175" width="291" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="cbRqQslN9XxAqCLU3B-r-104" value="Đọc&lt;br&gt;chính sách" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="aoAbijeoOiumrKGJV28i-1">
+          <mxGeometry x="709" y="218" width="117" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
