@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-22T03:08:29.895Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="UF0pBmlOlVUjBPsGEAdG" version="23.1.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-02-22T03:09:08.409Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="TeNgd-6wBLvusVZI4J1x" version="23.1.1" type="github" pages="7">
   <diagram name="MySQL" id="sm1h0GcSnK62wvaNjeTo">
     <mxGraphModel dx="1434" dy="758" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1586,10 +1586,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cbRqQslN9XxAqCLU3B-r-38" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="aoAbijeoOiumrKGJV28i-1">
-          <mxGeometry x="924" y="-74.5" width="30" height="60" as="geometry" />
+          <mxGeometry x="927" y="-27" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cbRqQslN9XxAqCLU3B-r-40" value="Nâng cấp&lt;br&gt;theo kịch bản" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="aoAbijeoOiumrKGJV28i-1">
-          <mxGeometry x="976" y="-85" width="82" height="30" as="geometry" />
+          <mxGeometry x="1020" y="6" width="82" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cbRqQslN9XxAqCLU3B-r-62" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#999999;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endSize=3;dashed=1;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="aoAbijeoOiumrKGJV28i-1" source="cbRqQslN9XxAqCLU3B-r-57" target="aoAbijeoOiumrKGJV28i-9">
           <mxGeometry relative="1" as="geometry">
@@ -1602,7 +1602,7 @@
           <mxGeometry x="670" y="82" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="cbRqQslN9XxAqCLU3B-r-37" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.template;" vertex="1" parent="aoAbijeoOiumrKGJV28i-1">
-          <mxGeometry x="1065" y="-99" width="41" height="49.2" as="geometry" />
+          <mxGeometry x="1129" y="-1" width="30.83" height="37" as="geometry" />
         </mxCell>
         <mxCell id="cbRqQslN9XxAqCLU3B-r-97" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=#999999;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;endSize=3;" edge="1" parent="aoAbijeoOiumrKGJV28i-1" source="cbRqQslN9XxAqCLU3B-r-55" target="cbRqQslN9XxAqCLU3B-r-0">
           <mxGeometry relative="1" as="geometry">
@@ -1631,7 +1631,7 @@
           <mxGeometry x="981.5" y="128" width="72" height="37" as="geometry" />
         </mxCell>
         <mxCell id="cbRqQslN9XxAqCLU3B-r-85" value="Khai báo/Release chính sách" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="aoAbijeoOiumrKGJV28i-1">
-          <mxGeometry x="751" y="-6" width="117" height="30" as="geometry" />
+          <mxGeometry x="752" y="19" width="117" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cbRqQslN9XxAqCLU3B-r-86" value="Hệ thống quản lý file/cấu hình" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="aoAbijeoOiumrKGJV28i-1">
           <mxGeometry x="996" y="300" width="117" height="30" as="geometry" />
