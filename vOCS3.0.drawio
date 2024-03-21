@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-21T08:57:49.960Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="gK8Wnk1G_uFk1AJSSvX9" version="24.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-21T08:58:23.467Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="xqJj3koDsGT6LV23OMN5" version="24.0.1" type="github">
   <diagram name="Trang-1" id="A-_vqMKWVQr660C769dK">
     <mxGraphModel dx="1834" dy="1158" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -335,8 +335,11 @@
             <mxRectangle width="91" height="31" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wH8gdFpppFBFeVhxwwnb-268" value="ABM_CONFIG_APP" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-36" y="-35" width="110" height="30" as="geometry" />
+        <mxCell id="wH8gdFpppFBFeVhxwwnb-268" value="APP_AEROSPIKE_CONFIG" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-40" y="-35" width="158" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wH8gdFpppFBFeVhxwwnb-269" value="ABM_CONFIG_APP" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="406" y="-35" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
