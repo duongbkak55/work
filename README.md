@@ -1,0 +1,1 @@
+docker run -d --name=firefox -p 5800:5800 -v /workspace/work/config:/config:rw -v /workspace/work:/workspace:rw --shm-size 2g -e "DISPLAY_WIDTH=1920" -e "DISPLAY_HEIGHT=1080" -v /usr/share/fonts:/usr/share/fonts  jlesage/firefox
